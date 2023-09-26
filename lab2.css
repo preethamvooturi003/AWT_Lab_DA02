@@ -1,0 +1,103 @@
+
+        
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #navbar {
+            overflow: hidden;
+            background: linear-gradient(20deg, #000, #6170cf, #ffeb3b, #03a9f4);
+            background-size: 200%;
+            padding: 50px 10px;
+            transition: 0.4s;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 99;
+        }
+        #navbar a {
+            float: left;
+            color: #fff;
+            text-align: center;
+            padding: 12px 20px;
+            text-decoration: none;
+            font-size: 14px;
+            text-transform: uppercase;
+            font-weight: bold;
+            line-height: 20px;
+            border-radius: 4px;
+        }
+        #navbar #logo {
+            font-size: 35px;
+            font-weight: bold;
+            transition: 0.4s;
+        }
+        #navbar a:hover {
+            background-color: dodgerblue;
+        }
+        #navbar-right {
+            float: right;
+        }
+        
+        .recipe-section {
+            background-color: #f9f9f9;
+            padding: calc(50px + 20px) 20px 20px; 
+            margin: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .recipe-section1 {
+            background-image: url("https://yennadosa.com/wp-content/uploads/2019/04/idli-768x512.jpg");
+            background-size: cover;
+            padding: calc(50px + 20px) 20px 20px;
+            margin: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            
+        }
+        .recipe-section2 {
+            background-image: url("https://th.bing.com/th/id/R.ee7b3b36ecfef5d597ca25f1bae953f0?rik=Pa725sPSRa2MMA&riu=http%3a%2f%2fhealthyliving.natureloc.com%2fwp-content%2fuploads%2f2015%2f10%2fSoft-and-spicy-Uzhunnu-vada-or-Urad-dal-vada.jpg&ehk=DG5W%2bQEC6XTahc8xk4UHyrR8jttlT0W1ofoFsYfFkQk%3d&risl=&pid=ImgRaw&r=0");
+            background-size: cover;
+            padding: calc(50px + 20px) 20px 20px;
+            margin: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            color: aliceblue;
+            
+        }
+        .recipe-section3 {
+            background-image: url("https://akm-img-a-in.tosshub.com/sites/dailyo/fb_feed_images/story_image/201812/masala-dosa-fb_122818052620.jpg");
+            background-size: cover;
+            padding: calc(50px + 20px) 20px 20px;
+            margin: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            
+        }
+        .recipe-section4 {
+            background-image: url("https://th.bing.com/th/id/OIP.Nb1Exnf5DNlJ3ZsyWjw50gHaE8?pid=ImgDet&rs=1");
+            background-size: cover;
+            padding: calc(50px + 20px) 20px 20px;
+            margin: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            color: #ddd;
+        }
+        .recipe-image {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        #about-us, #contact {
+            background-color: #f9f9f9;
+            padding: 20px;
+            margin: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        footer{
+            background: linear-gradient(20deg, #000, #6170cf, #ffeb3b, #03a9f4);
+            color: white;
+            text-align: center;
+            text-shadow: #000;
+        }

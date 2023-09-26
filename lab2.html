@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="lab2.css">
+</head>
+<body>
+<div id="navbar">
+  <a href="#default" id="logo">My Cook Book</a>
+  <div id="navbar-right">
+    <a href="#idly">Idly</a>
+    <a href="#vada">Vada</a>
+    <a href="#dosa">Dosa</a>
+    <a href="#chutney">Chutney</a>
+    <a href="#about-us">About</a>
+    <a href="#contact">Contact</a>
+  </div>
+</div>
+
+<div id="idly" class="recipe-section1">
+    <h1>Idly</h1>
+    <h3>Ingredients:</h3>
+    <ul>
+        <li>1 cup Idly Rice</li>
+        <li>1/2 cup Urad Dal</li>
+        <li>1/2 teaspoon Salt</li>
+        <li>Water, as needed</li>
+    </ul>
+    <h3>Instructions:</h3>
+    <ol>
+        <li>Wash and soak idly rice and urad dal separately for 4-6 hours.</li>
+        <li>Grind them into a smooth batter separately. Add water as needed.</li>
+        <li>Mix both batters together, add salt, and let it ferment overnight.</li>
+        <li>Pour the batter into idly molds and steam for 10-12 minutes.</li>
+        <li>Serve hot with chutney and sambar.</li>
+    </ol>
+</div>
+
+<div id="vada" class="recipe-section2">
+    <h1>Vada</h1>
+
+    <h3>Ingredients:</h3>
+    <ul>
+        <li>1 cup Urad Dal</li>
+        <li>1/2 teaspoon Cumin Seeds</li>
+        <li>1/2 teaspoon Black Pepper</li>
+        <li>1/2 teaspoon Salt</li>
+        <li>Oil, for deep frying</li>
+    </ul>
+    <h3>Instructions:</h3>
+    <ol>
+        <li>Soak urad dal for 4-6 hours and drain.</li>
+        <li>Grind dal with cumin seeds, black pepper, and salt, adding minimal water.</li>
+        <li>Heat oil in a pan, shape the batter into small flat rounds, and deep fry until golden brown.</li>
+        <li>Drain on paper towels and serve hot with chutney.</li>
+    </ol>
+</div>
+
+<div id="dosa" class="recipe-section3">
+    <h1>Dosa</h1>
+    <h3>Ingredients:</h3>
+    <ul>
+        <li>1 cup Dosa Rice</li>
+        <li>1/2 cup Urad Dal</li>
+        <li>1/2 teaspoon Fenugreek Seeds</li>
+        <li>1/2 teaspoon Salt</li>
+        <li>Oil, for cooking</li>
+    </ul>
+    <h3>Instructions:</h3>
+    <ol>
+        <li>Wash and soak dosa rice, urad dal, and fenugreek seeds separately for 4-6 hours.</li>
+        <li>Grind them into a smooth batter separately. Add salt.</li>
+        <li>Mix both batters together and let it ferment overnight.</li>
+        <li>Heat a dosa griddle, pour batter, spread into a thin circle, and cook until golden brown.</li>
+        <li>Serve hot with chutney and sambar.</li>
+    </ol>
+</div>
+
+<div id="chutney" class="recipe-section4">
+    <h1>Chutney</h1>
+   
+    <h3>Ingredients:</h3>
+    <ul>
+        <li>1 cup Coconut, grated</li>
+        <li>2-3 Green Chilies</li>
+        <li>1/2 cup Roasted Peanuts</li>
+        <li>1/2 teaspoon Tamarind Paste</li>
+        <li>Salt, to taste</li>
+        <li>Water, as needed</li>
+    </ul>
+    <h3>Instructions:</h3>
+    <ol>
+        <li>Grind coconut, green chilies, roasted peanuts, tamarind paste, and salt with water into a smooth paste.</li>
+        <li>Adjust the consistency with water as needed.</li>
+        <li>Serve with idly, dosa, or vada.</li>
+    </ol>
+</div>
+
+<div id="about-us" class="recipe-section">
+    <h1>About Us</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod libero sit amet nibh interdum, eget vestibulum tellus feugiat. Quisque efficitur magna non tellus tincidunt, nec vestibulum ipsum mattis.</p>
+</div>
+
+<div id="contact" class="recipe-section">
+    <h1>Contact</h1>
+    <p>If you have any questions regarding recipes or any feedback please mail at <a href="preethamvooturi003@gmail.com">preethamvooturi003@gmail.com</a></p>
+</div>
+
+<footer>
+    &copy; Preetham Vooturi 21MID0086
+</footer>
+
+<script>
+window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    document.getElementById("navbar").style.padding = "15px 10px";
+    document.getElementById("logo").style.fontSize = "20px";
+  } else {
+    document.getElementById("navbar").style.padding = "50px 10px";
+    document.getElementById("logo").style.fontSize = "35px";
+  }
+}
+</script>
+
+</body>
+</html>
